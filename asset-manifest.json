@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/WedPro/static/css/main.42a1fa7a.css",
+    "main.js": "/WedPro/static/js/main.f560070a.js",
+    "static/media/Gimg6.jpg": "/WedPro/static/media/Gimg6.fc8a9b0ccb159e2c8da8.jpg",
+    "static/media/Gimg2.jpg": "/WedPro/static/media/Gimg2.9fb3cf45de8ff185608e.jpg",
+    "static/media/Gimg5.jpg": "/WedPro/static/media/Gimg5.c025b52d94ff38e5cb7c.jpg",
+    "static/media/Gimg4.jpg": "/WedPro/static/media/Gimg4.2887ba9dbf76fbfaceec.jpg",
+    "static/media/Gimg7.jpg": "/WedPro/static/media/Gimg7.d0c0c83a6eb5212ae82f.jpg",
+    "static/media/Gimg1.jpg": "/WedPro/static/media/Gimg1.2263047a478a9555679b.jpg",
+    "static/media/Gimg3.jpg": "/WedPro/static/media/Gimg3.c393b6d5fb2f7d629917.jpg",
+    "index.html": "/WedPro/index.html",
+    "main.42a1fa7a.css.map": "/WedPro/static/css/main.42a1fa7a.css.map",
+    "main.f560070a.js.map": "/WedPro/static/js/main.f560070a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42a1fa7a.css",
+    "static/js/main.f560070a.js"
+  ]
+}
