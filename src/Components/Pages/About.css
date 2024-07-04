@@ -1,0 +1,26 @@
+.about_container{
+    border: 1px solid grey;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #dadad5; */
+ 
+    background-image:linear-gradient(to right,rgb(241, 228, 241),rgb(173, 162, 172),rgb(101, 83, 103)
+    ,rgb(49, 34, 51)
+    );
+}
+
+.about_Info_container{
+    height: 100%;
+    padding-left: 60px;
+}
+.about_title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(212, 207, 207);
+}
+.about_info_para{
+    text-align: center;
+    color: rgb(195, 188, 188);
+}

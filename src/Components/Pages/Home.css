@@ -1,0 +1,175 @@
+.hero {
+  height: 86vh;
+  display: flex;
+  background-image: linear-gradient(
+    to left,
+    rgb(251, 223, 223),
+    rgb(246, 176, 176),
+    rgb(104, 152, 199),
+    rgb(60, 173, 154)
+  );
+  /* border: 2px solid red; */
+}
+
+.hero .hero-text {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.hero .hero-text h2 {
+  font-size: 4vw;
+  font-weight: 700;
+  margin: 2rem 0rem;  
+}
+
+.hero .hero-text p {
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 0rem 3rem;
+  padding-bottom: 25px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.item1 {
+  background-image: url(/src/img/Gimg1.jpg);
+  grid-area: image1;
+}
+
+.item2 {
+  background-image: url(/src/img/Gimg2.jpg);
+  grid-area: image2;
+}
+.item3 {
+  background-image: url(/src/img/Gimg3.jpg);
+  grid-area: image3;
+}
+.item4 {
+  background-image: url(/src/img/Gimg4.jpg);
+  grid-area: image4;
+}
+.item5 {
+  background-image: url(/src/img/Gimg5.jpg);
+  grid-area: image5;
+}
+.item6 {
+  background-image: url(/src/img/Gimg6.jpg);
+  grid-area: image6;
+}
+.item7 {
+  background-image: url(/src/img/Gimg7.jpg);
+  grid-area: image7;
+}
+
+.grid-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  transition: 0.3s ease-in;
+  border: 2px solid black;
+}
+.grid-img:hover {
+  transition: 0.3s ease-in;
+  box-shadow: 5px 5px 5px rgb(122, 122, 122);
+}
+
+.hero .hero-grid {
+  width: 60%;
+  display: grid;
+  grid-template-areas:
+    "image1 image1 image2 image2 image3 image3"
+    "image4 image4 image5 image5 image3 image3"
+    "image4 image4 image6 image6 image7 image7";
+  gap: 20px;
+  padding: 20px;
+  border-left: 2px solid black;
+}
+
+/* icon */
+
+.icon-div {
+  width: 300px;
+  margin: auto;
+  padding-top: 10px;
+
+}
+.fa-brands {
+  font-size: 3vw;
+  padding: 10px;
+}
+
+#fb {
+  color:rgb(58, 133, 202);
+}
+
+#fb:hover {
+  color: rgb(29, 117, 199);
+  cursor: pointer;
+}
+
+#insta {
+  color: rgb(201, 64, 174);
+}
+
+#insta:hover {
+  color: rgb(164, 14, 134);
+  cursor: pointer;
+}
+
+#wp {
+  color: rgb(56, 149, 21);
+}
+
+#wp:hover {
+  color: rgb(41, 107, 17);
+  cursor: pointer;
+}
+#yt {
+  color: rgb(153, 27, 27);
+}
+
+#yt:hover {
+  color: rgb(200, 17, 17);
+  cursor: pointer;
+}
+
+
+/* Extra small devices (phones, 320px and up) */
+@media (min-width: 320px) { 
+  
+}
+
+/* Small devices (landscape phones, 568px and up) */
+@media (max-width: 568px) { 
+  .hero{
+    flex-direction: column;
+    height: auto;
+  }
+  .hero .hero-text{
+    width: 100%;
+  }
+  .hero .hero-grid{
+    width: 100%;
+    grid-template-areas:
+    "image1 image1 image1 image1 image1 image1"
+    "image2 image2 image2 image2 image2 image2"
+    "image3 image3 image3 image3 image3 image3"
+    "image4 image4 image4 image4 image4 image4"
+    "image5 image5 image5 image5 image5 image5"
+    "image6 image6 image6 image6 image6 image6"
+    "image7 image7 image7 image7 image7 image7";
+    border: none;
+  }
+
+  .grid-img{
+    width: 100%;
+    height: 120px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* Large devices (desktops, 1024px and up) */
+/* @media (min-width: 1024px) { ... } */

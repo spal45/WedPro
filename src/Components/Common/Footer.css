@@ -1,0 +1,91 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(72, 70, 70);
+}
+
+.footer-name{
+    width: 50%;
+    text-align: center;
+    padding: 0px 10%;
+    color: white;
+}
+
+.footer-name hr{
+    width: 50%; 
+    background-color: #2d2b2b;   
+}
+
+.icons{
+   width: 50%;
+   text-align: center;
+}
+.icons a i{
+   font-size: 2vw;
+}
+
+.footer-contact{
+   margin-top: 20px;
+   color: white;
+}
+.phone{
+   display: flex;
+   justify-content: center;
+   align-items: center;     
+}
+.phone p{
+   font-size: 1.5vw;
+   padding-top: 6px;
+}
+
+.mail{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.mail p{
+   font-size: 2vw;
+}
+.fa-phone-volume, .fa-envelope{
+   padding-right: 10px;
+   font-size: 2vw;
+   padding-bottom: 15px;
+}
+
+.copyright{
+   height: 25px;
+   background-color: black;
+   text-align: center;
+   color: white;
+   padding-bottom: 4px;
+   font-size: 12px;
+}
+
+/* Extra small devices (phones, 320px and up) */
+@media (min-width: 320px) { 
+  
+}
+
+/* Small devices (landscape phones, 568px and up) */
+@media (max-width: 568px) { 
+   .footer{
+      flex-direction: column;
+      height: auto;
+      padding: 20px 0px;
+   }
+
+   .footer-name{
+      width: 100%;
+      font-size: 2vw;
+   }
+
+   .icons{
+      width: 100%;
+   }
+   .icons a i{
+      font-size: 3vw;
+   }
+}

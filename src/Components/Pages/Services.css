@@ -1,0 +1,99 @@
+
+.pimg1 {
+ 
+  min-height: 400px;
+}
+
+.pimg2 {
+
+  min-height: 400px;
+}
+.pimg3 {
+
+  min-height: 400px;
+ 
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textbg {
+  background-color: #313534;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+.section {
+  padding: 30px 4vw;
+  text-align: center;
+}
+.section-light-1 {
+  background-image: linear-gradient(
+    to top,
+    rgb(32, 63, 164),
+    rgb(79, 180, 178),
+    rgb(124, 202, 201)
+  );
+  color: #fffdfd;
+  font-size: 2vw;
+  height: auto;
+}
+
+.section-light-2 {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(242, 218, 37),
+    rgb(238, 138, 67),
+    rgb(223, 39, 39)
+  );
+  color: #000000;
+  font-size: 2vw;
+  height: auto;
+}
+.section-light-3 {
+  background-image: linear-gradient(
+    to right,
+    rgb(241, 156, 240),
+    rgb(202, 92, 169),
+    rgb(99, 6, 60)
+  );
+  color: #ffffff;
+  font-size: 2vw;
+  height: auto;
+}
+.section h2{
+  font-size: 4vw;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.service-head{
+  text-align: center;
+  height: auto;
+  background-color: rgb(255, 253, 248);
+  padding: 30px 4vw;
+  font-size: 2vw;
+  font-weight: 700;
+}
+.service-head h1{
+  font-size: 4vw;
+}
+.divider{
+ color: #a91515;
+ font-size: 3vw;
+}
