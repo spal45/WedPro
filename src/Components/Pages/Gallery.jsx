@@ -245,7 +245,7 @@ const clickHandler =()=>{
             return(
               <>
               <div className="gal-img">
-              <img src={`public/images/${items.src}`} alt="" srcset="" className='gal-img'
+              <img src={`images/${items.src}`} alt="" srcset="" className='gal-img'
               />
               </div>         
               
