@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
     <nav className="navbar navbar-expand-lg navbar-bg">
-  <img  className='logo' src="images/logo2.png" alt="" srcset="" />
+  <img  className='logo' src="public/images/logo2.png" alt="" srcset="" />
   {/* <Link className="navbar-brand nav_items comp_name" to="/">Rythm of Light</Link> */}
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i>
     <span className="navbar-toggler-icon"></span>
