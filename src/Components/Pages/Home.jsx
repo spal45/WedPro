@@ -21,15 +21,18 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="hero-grid">
-          <div className="item1 grid-img"></div>
-          <div className="item2 grid-img"></div>
-          <div className="item3 grid-img"></div>
-          <div className="item4 grid-img"></div>
-          <div className="item5 grid-img"></div>
-          <div className="item6 grid-img"></div>
-          <div className="item7 grid-img"></div>
-        </div>
+        <div className='recentShorts'>
+          <h2 className='recentShortsText'>Our Recent Shorts</h2>
+          <div className="hero-grid">
+            <div className="item1 grid-img"></div>
+            <div className="item2 grid-img"></div>
+            <div className="item3 grid-img"></div>
+            <div className="item4 grid-img"></div>
+            <div className="item5 grid-img"></div>
+            <div className="item6 grid-img"></div>
+            <div className="item7 grid-img"></div>
+          </div>
+        </div> 
       </div>
     </>
   )
