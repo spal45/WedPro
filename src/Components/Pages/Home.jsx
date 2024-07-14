@@ -1,5 +1,6 @@
 import './Home.css'
 import React from 'react'
+import CardSlider from './slider'
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
           </div>
         </div> 
       </div>
+      <CardSlider/>
     </>
   )
 }
